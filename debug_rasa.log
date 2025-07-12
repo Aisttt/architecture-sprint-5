@@ -1,0 +1,585 @@
+./rasa_env/lib/python3.10/site-packages/rasa/core/tracker_store.py:1044: MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base: DeclarativeMeta = declarative_base()
+./rasa_env/lib/python3.10/site-packages/rasa/shared/utils/validation.py:134: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+./rasa_env/lib/python3.10/site-packages/pkg_resources/__init__.py:3117: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+./rasa_env/lib/python3.10/site-packages/pkg_resources/__init__.py:3117: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('ruamel')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+<frozen importlib._bootstrap>:283: DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.cli.utils  - Parameter 'credentials' not set. Using default location 'credentials.yml' instead.
+./rasa_env/lib/python3.10/site-packages/sanic_cors/extension.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  SANIC_VERSION = LooseVersion(sanic_version)
+YYYY-MM-DD HH:MM:SS DEBUG    h5py._conv  - Creating converter from 7 to 5
+YYYY-MM-DD HH:MM:SS DEBUG    h5py._conv  - Creating converter from 5 to 7
+YYYY-MM-DD HH:MM:SS DEBUG    h5py._conv  - Creating converter from 7 to 5
+YYYY-MM-DD HH:MM:SS DEBUG    h5py._conv  - Creating converter from 5 to 7
+YYYY-MM-DD HH:MM:SS DEBUG    jax._src.path  - etils.epath was not found. Using pathlib for file I/O.
+./rasa_env/lib/python3.10/site-packages/tensorflow/lite/python/util.py:52: DeprecationWarning: jax.xla_computation is deprecated. Please use the AOT APIs.
+  from jax import xla_computation as _xla_computation
+<frozen importlib._bootstrap>:283: DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.utils  - Available web server routes: 
+/conversations/<conversation_id:path>/messages     POST                           add_message
+/conversations/<conversation_id:path>/tracker/events POST                           append_events
+/webhooks/rasa                                     GET                            custom_webhook_RasaChatInput.health
+/webhooks/rasa/webhook                             POST                           custom_webhook_RasaChatInput.receive
+/webhooks/rest                                     GET                            custom_webhook_RestInput.health
+/webhooks/rest/webhook                             POST                           custom_webhook_RestInput.receive
+/model/test/intents                                POST                           evaluate_intents
+/model/test/stories                                POST                           evaluate_stories
+/conversations/<conversation_id:path>/execute      POST                           execute_action
+/domain                                            GET                            get_domain
+/                                                  GET                            hello
+/model                                             PUT                            load_model
+/model/parse                                       POST                           parse
+/conversations/<conversation_id:path>/predict      POST                           predict
+/conversations/<conversation_id:path>/tracker/events PUT                            replace_events
+/conversations/<conversation_id:path>/story        GET                            retrieve_story
+/conversations/<conversation_id:path>/tracker      GET                            retrieve_tracker
+/status                                            GET                            status
+/model/predict                                     POST                           tracker_predict
+/model/train                                       POST                           train
+/conversations/<conversation_id:path>/trigger_intent POST                           trigger_intent
+/model                                             DELETE                         unload_model
+/version                                           GET                            version
+YYYY-MM-DD HH:MM:SS INFO     root  - Starting Rasa server on http://0.0.0.0:5005
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.utils  - Using the default number of Sanic workers (1).
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.telemetry  - Skipping telemetry reporting: no license hash found.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.tracker_store  - Connected to InMemoryTrackerStore.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Connected to lock store 'InMemoryLockStore'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.nlg.generator  - Instantiated NLG to 'TemplatedNaturalLanguageGenerator'.
+YYYY-MM-DD HH:MM:SS INFO     rasa.core.processor  - Loading model models/20250712-104249-undecidable-module.tar.gz...
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.storage.local_model_storage  - Extracted model to '/tmp/rasa_temp/T/tmpx6knc25c'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'nlu_message_converter' loading 'NLUMessageConverter.load' and kwargs: '{}'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_WhitespaceTokenizer0' loading 'WhitespaceTokenizer.load' and kwargs: '{}'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RegexFeaturizer1' loading 'RegexFeaturizer.load' and kwargs: '{}'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.storage.local_model_storage  - Resource 'train_RegexFeaturizer1' was requested for reading.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_LexicalSyntacticFeaturizer2' loading 'LexicalSyntacticFeaturizer.load' and kwargs: '{}'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.storage.local_model_storage  - Resource 'train_LexicalSyntacticFeaturizer2' was requested for reading.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_CountVectorsFeaturizer3' loading 'CountVectorsFeaturizer.load' and kwargs: '{}'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.storage.local_model_storage  - Resource 'train_CountVectorsFeaturizer3' was requested for reading.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_CountVectorsFeaturizer4' loading 'CountVectorsFeaturizer.load' and kwargs: '{}'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.storage.local_model_storage  - Resource 'train_CountVectorsFeaturizer4' was requested for reading.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_DIETClassifier5' loading 'DIETClassifier.load' and kwargs: '{}'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.storage.local_model_storage  - Resource 'train_DIETClassifier5' was requested for reading.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.utils.tensorflow.models  - Loading the model from /tmp/rasa_temp/T/tmp1ni8recb/train_DIETClassifier5/DIETClassifier.tf_model with finetune_mode=False...
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.nlu.classifiers.diet_classifier  - You specified 'DIET' to train entities, but no entities are present in the training data. Skipping training of entities.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.nlu.classifiers.diet_classifier  - Following metrics will be logged during training: 
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.nlu.classifiers.diet_classifier  -   t_loss (total loss)
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.nlu.classifiers.diet_classifier  -   i_acc (intent acc)
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.nlu.classifiers.diet_classifier  -   i_loss (intent loss)
+YYYY-MM-DD HH:MM:SS WARNING  absl  - At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+YYYY-MM-DD HH:MM:SS WARNING  absl  - There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.Adam`.
+/usr/local/python3.10/lib/Python.framework/Versions/3.10/lib/python3.10/random.py:370: DeprecationWarning: non-integer arguments to randrange() have been deprecated since Python 3.10 and will be removed in a subsequent version
+  return self.randrange(a, b+1)
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.utils.tensorflow.models  - Finished loading the model.
+[93m./rasa_env/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: 'evaluate_every_number_of_epochs=20' is greater than 'epochs=10'. No evaluation will occur.
+[0mYYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_EntitySynonymMapper6' loading 'EntitySynonymMapper.load' and kwargs: '{}'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.storage.local_model_storage  - Resource 'train_EntitySynonymMapper6' was requested for reading.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.nlu.extractors.entity_synonyms  - Failed to load ABCMeta from model storage. Resource 'train_EntitySynonymMapper6' doesn't exist.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_ResponseSelector7' loading 'ResponseSelector.load' and kwargs: '{}'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.storage.local_model_storage  - Resource 'train_ResponseSelector7' was requested for reading.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.nlu.classifiers.diet_classifier  - Failed to load ABCMeta from model storage. Resource 'train_ResponseSelector7' doesn't exist.
+[93m./rasa_env/lib/python3.10/site-packages/rasa/utils/train_utils.py:530: UserWarning: constrain_similarities is set to `False`. It is recommended to set it to `True` when using cross-entropy loss.
+  rasa.shared.utils.io.raise_warning(
+[0m[93m./rasa_env/lib/python3.10/site-packages/rasa/shared/utils/io.py:100: UserWarning: 'evaluate_every_number_of_epochs=20' is greater than 'epochs=5'. No evaluation will occur.
+[0mYYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.storage.local_model_storage  - Resource 'train_ResponseSelector7' was requested for reading.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.nlu.selectors.response_selector  - Failed to load ResponseSelector from model storage. Resource 'train_ResponseSelector7' doesn't exist.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RegexMessageHandler' loading 'RegexMessageHandler.load' and kwargs: '{}'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'domain_provider' loading 'DomainProvider.load' and kwargs: '{}'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.storage.local_model_storage  - Resource 'domain_provider' was requested for reading.
+<frozen importlib._bootstrap>:283: DeprecationWarning: the load_module() method is deprecated and slated for removal in Python 3.12; use exec_module() instead
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_MemoizationPolicy0' loading 'MemoizationPolicy.load' and kwargs: '{}'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.storage.local_model_storage  - Resource 'train_MemoizationPolicy0' was requested for reading.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RulePolicy1' loading 'RulePolicy.load' and kwargs: '{}'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.storage.local_model_storage  - Resource 'train_RulePolicy1' was requested for reading.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_UnexpecTEDIntentPolicy2' loading 'UnexpecTEDIntentPolicy.load' and kwargs: '{}'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.storage.local_model_storage  - Resource 'train_UnexpecTEDIntentPolicy2' was requested for reading.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.utils.tensorflow.models  - Loading the model from /tmp/rasa_temp/T/tmp1ni8recb/train_UnexpecTEDIntentPolicy2/unexpected_intent_policy.tf_model with finetune_mode=False...
+YYYY-MM-DD HH:MM:SS WARNING  absl  - At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+YYYY-MM-DD HH:MM:SS WARNING  absl  - There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.Adam`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.utils.tensorflow.models  - Finished loading the model.
+YYYY-MM-DD HH:MM:SS WARNING  rasa.shared.utils.common  - The UnexpecTED Intent Policy is currently experimental and might change or be removed in the future 🔬 Please share your feedback on it in the forum (https://forum.rasa.com) to help us make this feature ready for production.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_TEDPolicy3' loading 'TEDPolicy.load' and kwargs: '{}'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.storage.local_model_storage  - Resource 'train_TEDPolicy3' was requested for reading.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.utils.tensorflow.models  - Loading the model from /tmp/rasa_temp/T/tmp1ni8recb/train_TEDPolicy3/ted_policy.tf_model with finetune_mode=False...
+YYYY-MM-DD HH:MM:SS WARNING  absl  - At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+YYYY-MM-DD HH:MM:SS WARNING  absl  - There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.Adam`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.utils.tensorflow.models  - Finished loading the model.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'rule_only_data_provider' loading 'RuleOnlyDataProvider.load' and kwargs: '{}'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.storage.local_model_storage  - Resource 'train_RulePolicy1' was requested for reading.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'select_prediction' loading 'DefaultPolicyPredictionEnsemble.load' and kwargs: '{}'.
+YYYY-MM-DD HH:MM:SS INFO     root  - Rasa server is up and running.
+YYYY-MM-DD HH:MM:SS INFO     root  - Enabling coroutine debugging. Loop id 12979434112.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Issuing ticket for conversation 'PractikumStudent'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Acquiring lock for conversation 'PractikumStudent'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Acquired lock for conversation 'PractikumStudent'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.tracker_store  - Could not find tracker for conversation ID 'TestUser'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.tracker_store  - No event broker configured. Skipping streaming events.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - Starting a new session for conversation ID 'TestUser'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"prediction_events": [], "event": "processor.actions.policy_prediction", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"action_name": "action_session_start", "rasa_events": ["<rasa.shared.core.events.SessionStarted object at 0x[MEMORY_ADDRESS]>", "ActionExecuted(action: action_listen, policy: None, confidence: None)"], "event": "processor.actions.log", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"slot_values": "\tsession_started_metadata: None", "event": "processor.slots.log", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.runner.dask  - Running graph with inputs: {'__message__': [<rasa.core.channels.channel.UserMessage object at 0x[MEMORY_ADDRESS]>], '__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x[MEMORY_ADDRESS]>}, targets: ['run_RegexMessageHandler'] and ExecutionContext(model_id='example_model_id', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'nlu_message_converter' running 'NLUMessageConverter.convert_user_message'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_WhitespaceTokenizer0' running 'WhitespaceTokenizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RegexFeaturizer1' running 'RegexFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_LexicalSyntacticFeaturizer2' running 'LexicalSyntacticFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_CountVectorsFeaturizer3' running 'CountVectorsFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_CountVectorsFeaturizer4' running 'CountVectorsFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_DIETClassifier5' running 'DIETClassifier.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_EntitySynonymMapper6' running 'EntitySynonymMapper.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_ResponseSelector7' running 'ResponseSelector.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.nlu.classifiers.diet_classifier  - There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.nlu.selectors.response_selector  - Adding following selector key to message property: default
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'domain_provider' running 'DomainProvider.provide_inference'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RegexMessageHandler' running 'RegexMessageHandler.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"parse_data_text": "Привет", "parse_data_intent": {"name": "greet", "confidence": 0.15109579265117645}, "parse_data_entities": [], "event": "processor.message.parse", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - Logged UserUtterance - tracker now has 4 events.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.actions.action  - Validating extracted slots: 
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"action_extract_slot": "action_extract_slots", "len_extraction_events": 0, "rasa_events": [], "event": "processor.extract.slots", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.runner.dask  - Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x[MEMORY_ADDRESS]>}, targets: ['select_prediction'] and ExecutionContext(model_id='example_model_id', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'domain_provider' running 'DomainProvider.provide_inference'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - {"tracker_states": [{}, {"user": {"intent": "greet"}, "prev_action": {"action_name": "action_listen"}}], "event": "memoization.predict.actions", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - There is a memorised next action 'utter_greet'
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RulePolicy1' running 'RulePolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - {"current_states": "\n[state 1] user text: Привет | previous action name: action_listen", "event": "rule_policy.actions.find", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - There is no applicable rule.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - {"current_states": "\n[state 1] user intent: greet | previous action name: action_listen", "event": "rule_policy.actions.find", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - There is a rule for the next action 'utter_greet'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_TEDPolicy3' running 'TEDPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ted_policy  - TED predicted 'utter_greet' based on user intent.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_UnexpecTEDIntentPolicy2' running 'UnexpecTEDIntentPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Querying for intent `greet`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Score for intent `greet` is `0.007700234651565552`, while threshold is `-0.04987533390522003`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Top 5 intents (in ascending order) that are likely here are: `[('ask_cloud', 0.014008321), ('ask_technologies', 0.029305309), ('ask_microservices', 0.07139921), ('ask_best_practices', 0.10118523), ('ask_database', 0.14803556)]`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Made prediction using user intent.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Added `DefinePrevUserUtteredFeaturization(False)` event.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Predicted next action using RulePolicy.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - Predicted next action 'utter_greet' with confidence 1.00.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"prediction_events": ["<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x[MEMORY_ADDRESS]>"], "event": "processor.actions.policy_prediction", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"action_name": "utter_greet", "rasa_events": ["BotUttered('Привет! Я AI-архитектор, готов помочь вам с вопросами архитектуры программного обеспечения. Что вас интересует?', {\"elements\": null, \"quick_replies\": null, \"buttons\": null, \"attachment\": null, \"image\": null, \"custom\": null}, {\"utter_action\": \"utter_greet\"}, 1752337511.198538)"], "event": "processor.actions.log", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.runner.dask  - Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x[MEMORY_ADDRESS]>}, targets: ['select_prediction'] and ExecutionContext(model_id='example_model_id', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'domain_provider' running 'DomainProvider.provide_inference'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - {"tracker_states": [{}, {"user": {"intent": "greet"}, "prev_action": {"action_name": "action_listen"}}, {"user": {"intent": "greet"}, "prev_action": {"action_name": "utter_greet"}}], "event": "memoization.predict.actions", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - There is a memorised next action 'action_listen'
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RulePolicy1' running 'RulePolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - {"current_states": "\n[state 1] user intent: greet | previous action name: action_listen\n[state 2] user intent: greet | previous action name: utter_greet", "event": "rule_policy.actions.find", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - There is a rule for the next action 'action_listen'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_TEDPolicy3' running 'TEDPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ted_policy  - TED predicted 'action_listen' based on user intent.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_UnexpecTEDIntentPolicy2' running 'UnexpecTEDIntentPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Skipping predictions for UnexpecTEDIntentPolicy as either there is no event of type `UserUttered`, event's intent is new and not in domain or there is an event of type `ActionExecuted` after the last `UserUttered`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Predicted next action using RulePolicy.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - Predicted next action 'action_listen' with confidence 1.00.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"prediction_events": [], "event": "processor.actions.policy_prediction", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"action_name": "action_listen", "rasa_events": [], "event": "processor.actions.log", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.tracker_store  - No event broker configured. Skipping streaming events.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Deleted lock for conversation 'PractikumStudent'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Issuing ticket for conversation 'PractikumStudent'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Acquiring lock for conversation 'PractikumStudent'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Acquired lock for conversation 'PractikumStudent'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.tracker_store  - Recreating tracker for id 'PractikumStudent'
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.runner.dask  - Running graph with inputs: {'__message__': [<rasa.core.channels.channel.UserMessage object at 0x[MEMORY_ADDRESS]>], '__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x[MEMORY_ADDRESS]>}, targets: ['run_RegexMessageHandler'] and ExecutionContext(model_id='example_model_id', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'nlu_message_converter' running 'NLUMessageConverter.convert_user_message'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_WhitespaceTokenizer0' running 'WhitespaceTokenizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RegexFeaturizer1' running 'RegexFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_LexicalSyntacticFeaturizer2' running 'LexicalSyntacticFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_CountVectorsFeaturizer3' running 'CountVectorsFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_CountVectorsFeaturizer4' running 'CountVectorsFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_DIETClassifier5' running 'DIETClassifier.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_EntitySynonymMapper6' running 'EntitySynonymMapper.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_ResponseSelector7' running 'ResponseSelector.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.nlu.classifiers.diet_classifier  - There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.nlu.selectors.response_selector  - Adding following selector key to message property: default
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'domain_provider' running 'DomainProvider.provide_inference'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RegexMessageHandler' running 'RegexMessageHandler.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"parse_data_text": "Что такое микросервисы?", "parse_data_intent": {"name": "ask_microservices", "confidence": 0.2136572003364563}, "parse_data_entities": [], "event": "processor.message.parse", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - Logged UserUtterance - tracker now has 9 events.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.actions.action  - Validating extracted slots: 
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"action_extract_slot": "action_extract_slots", "len_extraction_events": 0, "rasa_events": [], "event": "processor.extract.slots", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.runner.dask  - Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x[MEMORY_ADDRESS]>}, targets: ['select_prediction'] and ExecutionContext(model_id='example_model_id', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'domain_provider' running 'DomainProvider.provide_inference'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - {"tracker_states": [{}, {"user": {"intent": "greet"}, "prev_action": {"action_name": "action_listen"}}, {"user": {"intent": "greet"}, "prev_action": {"action_name": "utter_greet"}}, {"user": {"intent": "ask_microservices"}, "prev_action": {"action_name": "action_listen"}}], "event": "memoization.predict.actions", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - There is no memorised next action
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RulePolicy1' running 'RulePolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - {"current_states": "\n[state 1] user intent: greet | previous action name: action_listen\n[state 2] user intent: greet | previous action name: utter_greet\n[state 3] user text: Что такое микросервисы? | previous action name: action_listen", "event": "rule_policy.actions.find", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - There is no applicable rule.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - {"current_states": "\n[state 1] user intent: greet | previous action name: action_listen\n[state 2] user intent: greet | previous action name: utter_greet\n[state 3] user intent: ask_microservices | previous action name: action_listen", "event": "rule_policy.actions.find", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - There is a rule for the next action 'utter_ask_microservices'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_TEDPolicy3' running 'TEDPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ted_policy  - TED predicted 'utter_ask_microservices' based on user intent.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_UnexpecTEDIntentPolicy2' running 'UnexpecTEDIntentPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Querying for intent `ask_microservices`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Score for intent `ask_microservices` is `0.005775190889835358`, while threshold is `0.04682578891515732`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Top 5 intents (in ascending order) that are likely here are: `[('ask_database', -0.06760402), ('ask_cloud', -0.061827), ('bot_challenge', -0.060430318), ('ask_microservices', 0.005775191), ('ask_architecture', 0.085266046)]`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Intent `ask_microservices-5` unlikely to occur here.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Made prediction using user intent.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Added `DefinePrevUserUtteredFeaturization(False)` event.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Predicted next action using RulePolicy.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - Predicted next action 'utter_ask_microservices' with confidence 1.00.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"prediction_events": ["<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x[MEMORY_ADDRESS]>"], "event": "processor.actions.policy_prediction", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"action_name": "utter_ask_microservices", "rasa_events": ["BotUttered('Микросервисная архитектура - это подход к разработке приложения как набора небольших независимых сервисов. Преимущества:\n• Независимое развертывание\n• Масштабируемость\n• Технологическое разнообразие\n• Отказоустойчивость\nНедостатки:\n• Сложность управления\n• Сетевая латентность\n• Распределенные транзакции\nИнтересует какой аспект?', {\"elements\": null, \"quick_replies\": null, \"buttons\": null, \"attachment\": null, \"image\": null, \"custom\": null}, {\"utter_action\": \"utter_ask_microservices\"}, 1752337515.084805)"], "event": "processor.actions.log", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.runner.dask  - Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x[MEMORY_ADDRESS]>}, targets: ['select_prediction'] and ExecutionContext(model_id='example_model_id', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'domain_provider' running 'DomainProvider.provide_inference'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - {"tracker_states": [{}, {"user": {"intent": "greet"}, "prev_action": {"action_name": "action_listen"}}, {"user": {"intent": "greet"}, "prev_action": {"action_name": "utter_greet"}}, {"user": {"intent": "ask_microservices"}, "prev_action": {"action_name": "action_listen"}}, {"user": {"intent": "ask_microservices"}, "prev_action": {"action_name": "utter_ask_microservices"}}], "event": "memoization.predict.actions", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - There is no memorised next action
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RulePolicy1' running 'RulePolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - {"current_states": "\n[state 1] user intent: greet | previous action name: action_listen\n[state 2] user intent: greet | previous action name: utter_greet\n[state 3] user intent: ask_microservices | previous action name: action_listen\n[state 4] user intent: ask_microservices | previous action name: utter_ask_microservices", "event": "rule_policy.actions.find", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - There is a rule for the next action 'action_listen'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_TEDPolicy3' running 'TEDPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ted_policy  - TED predicted 'action_listen' based on user intent.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_UnexpecTEDIntentPolicy2' running 'UnexpecTEDIntentPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Skipping predictions for UnexpecTEDIntentPolicy as either there is no event of type `UserUttered`, event's intent is new and not in domain or there is an event of type `ActionExecuted` after the last `UserUttered`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Predicted next action using RulePolicy.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - Predicted next action 'action_listen' with confidence 1.00.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"prediction_events": [], "event": "processor.actions.policy_prediction", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"action_name": "action_listen", "rasa_events": [], "event": "processor.actions.log", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.tracker_store  - No event broker configured. Skipping streaming events.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Deleted lock for conversation 'PractikumStudent'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Issuing ticket for conversation 'PractikumStudent'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Acquiring lock for conversation 'PractikumStudent'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Acquired lock for conversation 'PractikumStudent'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.tracker_store  - Recreating tracker for id 'PractikumStudent'
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.runner.dask  - Running graph with inputs: {'__message__': [<rasa.core.channels.channel.UserMessage object at 0x[MEMORY_ADDRESS]>], '__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x[MEMORY_ADDRESS]>}, targets: ['run_RegexMessageHandler'] and ExecutionContext(model_id='example_model_id', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'nlu_message_converter' running 'NLUMessageConverter.convert_user_message'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_WhitespaceTokenizer0' running 'WhitespaceTokenizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RegexFeaturizer1' running 'RegexFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_LexicalSyntacticFeaturizer2' running 'LexicalSyntacticFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_CountVectorsFeaturizer3' running 'CountVectorsFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_CountVectorsFeaturizer4' running 'CountVectorsFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_DIETClassifier5' running 'DIETClassifier.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_EntitySynonymMapper6' running 'EntitySynonymMapper.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_ResponseSelector7' running 'ResponseSelector.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.nlu.classifiers.diet_classifier  - There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.nlu.selectors.response_selector  - Adding following selector key to message property: default
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'domain_provider' running 'DomainProvider.provide_inference'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RegexMessageHandler' running 'RegexMessageHandler.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"parse_data_text": "Какие паттерны проектирования знаешь?", "parse_data_intent": {"name": "ask_patterns", "confidence": 0.26491355895996094}, "parse_data_entities": [], "event": "processor.message.parse", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - Logged UserUtterance - tracker now has 14 events.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.actions.action  - Validating extracted slots: 
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"action_extract_slot": "action_extract_slots", "len_extraction_events": 0, "rasa_events": [], "event": "processor.extract.slots", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.runner.dask  - Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x[MEMORY_ADDRESS]>}, targets: ['select_prediction'] and ExecutionContext(model_id='example_model_id', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'domain_provider' running 'DomainProvider.provide_inference'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - {"tracker_states": [{"user": {"intent": "greet"}, "prev_action": {"action_name": "action_listen"}}, {"user": {"intent": "greet"}, "prev_action": {"action_name": "utter_greet"}}, {"user": {"intent": "ask_microservices"}, "prev_action": {"action_name": "action_listen"}}, {"user": {"intent": "ask_microservices"}, "prev_action": {"action_name": "utter_ask_microservices"}}, {"user": {"intent": "ask_patterns"}, "prev_action": {"action_name": "action_listen"}}], "event": "memoization.predict.actions", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - There is no memorised next action
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RulePolicy1' running 'RulePolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - {"current_states": "\n[state 1] user intent: greet | previous action name: action_listen\n[state 2] user intent: greet | previous action name: utter_greet\n[state 3] user intent: ask_microservices | previous action name: action_listen\n[state 4] user intent: ask_microservices | previous action name: utter_ask_microservices\n[state 5] user text: Какие паттерны проектирования знаешь? | previous action name: action_listen", "event": "rule_policy.actions.find", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - There is no applicable rule.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - {"current_states": "\n[state 1] user intent: greet | previous action name: action_listen\n[state 2] user intent: greet | previous action name: utter_greet\n[state 3] user intent: ask_microservices | previous action name: action_listen\n[state 4] user intent: ask_microservices | previous action name: utter_ask_microservices\n[state 5] user intent: ask_patterns | previous action name: action_listen", "event": "rule_policy.actions.find", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - There is a rule for the next action 'utter_ask_patterns'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_TEDPolicy3' running 'TEDPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ted_policy  - TED predicted 'utter_ask_microservices' based on user intent.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_UnexpecTEDIntentPolicy2' running 'UnexpecTEDIntentPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Querying for intent `ask_patterns`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Score for intent `ask_patterns` is `-0.13313855230808258`, while threshold is `-0.2296963334083557`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Top 5 intents (in ascending order) that are likely here are: `[('ask_cloud', 0.008276172), ('ask_best_practices', 0.025720567), ('ask_security', 0.046952266), ('ask_microservices', 0.07812759), ('ask_database', 0.13113177)]`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Made prediction using user intent.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Added `DefinePrevUserUtteredFeaturization(False)` event.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Predicted next action using RulePolicy.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - Predicted next action 'utter_ask_patterns' with confidence 1.00.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"prediction_events": ["<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x[MEMORY_ADDRESS]>"], "event": "processor.actions.policy_prediction", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"action_name": "utter_ask_patterns", "rasa_events": ["BotUttered('Паттерны проектирования - это проверенные решения для типичных задач в разработке ПО. Основные категории:\n• Порождающие (Singleton, Factory, Builder)\n• Структурные (Adapter, Decorator, Facade)\n• Поведенческие (Observer, Strategy, Command)\n• Архитектурные (MVC, MVP, MVVM, Repository)\nКакие паттерны вас интересуют?', {\"elements\": null, \"quick_replies\": null, \"buttons\": null, \"attachment\": null, \"image\": null, \"custom\": null}, {\"utter_action\": \"utter_ask_patterns\"}, 1752337520.257067)"], "event": "processor.actions.log", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.runner.dask  - Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x[MEMORY_ADDRESS]>}, targets: ['select_prediction'] and ExecutionContext(model_id='example_model_id', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'domain_provider' running 'DomainProvider.provide_inference'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - {"tracker_states": [{"user": {"intent": "greet"}, "prev_action": {"action_name": "utter_greet"}}, {"user": {"intent": "ask_microservices"}, "prev_action": {"action_name": "action_listen"}}, {"user": {"intent": "ask_microservices"}, "prev_action": {"action_name": "utter_ask_microservices"}}, {"user": {"intent": "ask_patterns"}, "prev_action": {"action_name": "action_listen"}}, {"user": {"intent": "ask_patterns"}, "prev_action": {"action_name": "utter_ask_patterns"}}], "event": "memoization.predict.actions", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - There is no memorised next action
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RulePolicy1' running 'RulePolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - {"current_states": "\n[state 1] user intent: greet | previous action name: action_listen\n[state 2] user intent: greet | previous action name: utter_greet\n[state 3] user intent: ask_microservices | previous action name: action_listen\n[state 4] user intent: ask_microservices | previous action name: utter_ask_microservices\n[state 5] user intent: ask_patterns | previous action name: action_listen\n[state 6] user intent: ask_patterns | previous action name: utter_ask_patterns", "event": "rule_policy.actions.find", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - There is a rule for the next action 'action_listen'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_TEDPolicy3' running 'TEDPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ted_policy  - TED predicted 'action_listen' based on user intent.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_UnexpecTEDIntentPolicy2' running 'UnexpecTEDIntentPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Skipping predictions for UnexpecTEDIntentPolicy as either there is no event of type `UserUttered`, event's intent is new and not in domain or there is an event of type `ActionExecuted` after the last `UserUttered`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Predicted next action using RulePolicy.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - Predicted next action 'action_listen' with confidence 1.00.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"prediction_events": [], "event": "processor.actions.policy_prediction", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"action_name": "action_listen", "rasa_events": [], "event": "processor.actions.log", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.tracker_store  - No event broker configured. Skipping streaming events.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Deleted lock for conversation 'PractikumStudent'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Issuing ticket for conversation 'PractikumStudent'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Acquiring lock for conversation 'PractikumStudent'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Acquired lock for conversation 'PractikumStudent'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.tracker_store  - Recreating tracker for id 'PractikumStudent'
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.runner.dask  - Running graph with inputs: {'__message__': [<rasa.core.channels.channel.UserMessage object at 0x[MEMORY_ADDRESS]>], '__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x[MEMORY_ADDRESS]>}, targets: ['run_RegexMessageHandler'] and ExecutionContext(model_id='example_model_id', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'nlu_message_converter' running 'NLUMessageConverter.convert_user_message'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_WhitespaceTokenizer0' running 'WhitespaceTokenizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RegexFeaturizer1' running 'RegexFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_LexicalSyntacticFeaturizer2' running 'LexicalSyntacticFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_CountVectorsFeaturizer3' running 'CountVectorsFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_CountVectorsFeaturizer4' running 'CountVectorsFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_DIETClassifier5' running 'DIETClassifier.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_EntitySynonymMapper6' running 'EntitySynonymMapper.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_ResponseSelector7' running 'ResponseSelector.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.nlu.classifiers.diet_classifier  - There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.nlu.selectors.response_selector  - Adding following selector key to message property: default
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'domain_provider' running 'DomainProvider.provide_inference'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RegexMessageHandler' running 'RegexMessageHandler.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"parse_data_text": "Выбор базы данных", "parse_data_intent": {"name": "ask_database", "confidence": 0.48213931918144226}, "parse_data_entities": [], "event": "processor.message.parse", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - Logged UserUtterance - tracker now has 19 events.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.actions.action  - Validating extracted slots: 
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"action_extract_slot": "action_extract_slots", "len_extraction_events": 0, "rasa_events": [], "event": "processor.extract.slots", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.runner.dask  - Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x[MEMORY_ADDRESS]>}, targets: ['select_prediction'] and ExecutionContext(model_id='example_model_id', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'domain_provider' running 'DomainProvider.provide_inference'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - {"tracker_states": [{"user": {"intent": "ask_microservices"}, "prev_action": {"action_name": "action_listen"}}, {"user": {"intent": "ask_microservices"}, "prev_action": {"action_name": "utter_ask_microservices"}}, {"user": {"intent": "ask_patterns"}, "prev_action": {"action_name": "action_listen"}}, {"user": {"intent": "ask_patterns"}, "prev_action": {"action_name": "utter_ask_patterns"}}, {"user": {"intent": "ask_database"}, "prev_action": {"action_name": "action_listen"}}], "event": "memoization.predict.actions", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - There is no memorised next action
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RulePolicy1' running 'RulePolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - {"current_states": "\n[state 1] user intent: greet | previous action name: action_listen\n[state 2] user intent: greet | previous action name: utter_greet\n[state 3] user intent: ask_microservices | previous action name: action_listen\n[state 4] user intent: ask_microservices | previous action name: utter_ask_microservices\n[state 5] user intent: ask_patterns | previous action name: action_listen\n[state 6] user intent: ask_patterns | previous action name: utter_ask_patterns\n[state 7] user text: Выбор базы данных | previous action name: action_listen", "event": "rule_policy.actions.find", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - There is no applicable rule.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - {"current_states": "\n[state 1] user intent: greet | previous action name: action_listen\n[state 2] user intent: greet | previous action name: utter_greet\n[state 3] user intent: ask_microservices | previous action name: action_listen\n[state 4] user intent: ask_microservices | previous action name: utter_ask_microservices\n[state 5] user intent: ask_patterns | previous action name: action_listen\n[state 6] user intent: ask_patterns | previous action name: utter_ask_patterns\n[state 7] user intent: ask_database | previous action name: action_listen", "event": "rule_policy.actions.find", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - There is a rule for the next action 'utter_ask_database'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_TEDPolicy3' running 'TEDPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ted_policy  - TED predicted 'utter_ask_database' based on user intent.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_UnexpecTEDIntentPolicy2' running 'UnexpecTEDIntentPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Querying for intent `ask_database`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Score for intent `ask_database` is `0.2864696681499481`, while threshold is `0.09176164120435715`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Top 5 intents (in ascending order) that are likely here are: `[('ask_security', 0.0084231235), ('ask_cloud', 0.04262621), ('ask_microservices', 0.07834599), ('ask_best_practices', 0.11010565), ('ask_database', 0.28646967)]`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Made prediction using user intent.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Added `DefinePrevUserUtteredFeaturization(False)` event.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Predicted next action using RulePolicy.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - Predicted next action 'utter_ask_database' with confidence 1.00.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"prediction_events": ["<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x[MEMORY_ADDRESS]>"], "event": "processor.actions.policy_prediction", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"action_name": "utter_ask_database", "rasa_events": ["BotUttered('Выбор базы данных зависит от требований:\n• Реляционные (PostgreSQL, MySQL) - для структурированных данных\n• Документоориентированные (MongoDB) - для гибкой схемы\n• Ключ-значение (Redis) - для кеширования\n• Графовые (Neo4j) - для связанных данных\n• Поисковые (Elasticsearch) - для полнотекстового поиска\nКакой тип данных планируете хранить?', {\"elements\": null, \"quick_replies\": null, \"buttons\": null, \"attachment\": null, \"image\": null, \"custom\": null}, {\"utter_action\": \"utter_ask_database\"}, 1752337524.3661382)"], "event": "processor.actions.log", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.runner.dask  - Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x[MEMORY_ADDRESS]>}, targets: ['select_prediction'] and ExecutionContext(model_id='example_model_id', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'domain_provider' running 'DomainProvider.provide_inference'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - {"tracker_states": [{"user": {"intent": "ask_microservices"}, "prev_action": {"action_name": "utter_ask_microservices"}}, {"user": {"intent": "ask_patterns"}, "prev_action": {"action_name": "action_listen"}}, {"user": {"intent": "ask_patterns"}, "prev_action": {"action_name": "utter_ask_patterns"}}, {"user": {"intent": "ask_database"}, "prev_action": {"action_name": "action_listen"}}, {"user": {"intent": "ask_database"}, "prev_action": {"action_name": "utter_ask_database"}}], "event": "memoization.predict.actions", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - There is no memorised next action
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RulePolicy1' running 'RulePolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - {"current_states": "\n[state 1] user intent: greet | previous action name: action_listen\n[state 2] user intent: greet | previous action name: utter_greet\n[state 3] user intent: ask_microservices | previous action name: action_listen\n[state 4] user intent: ask_microservices | previous action name: utter_ask_microservices\n[state 5] user intent: ask_patterns | previous action name: action_listen\n[state 6] user intent: ask_patterns | previous action name: utter_ask_patterns\n[state 7] user intent: ask_database | previous action name: action_listen\n[state 8] user intent: ask_database | previous action name: utter_ask_database", "event": "rule_policy.actions.find", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - There is a rule for the next action 'action_listen'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_TEDPolicy3' running 'TEDPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ted_policy  - TED predicted 'action_listen' based on user intent.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_UnexpecTEDIntentPolicy2' running 'UnexpecTEDIntentPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Skipping predictions for UnexpecTEDIntentPolicy as either there is no event of type `UserUttered`, event's intent is new and not in domain or there is an event of type `ActionExecuted` after the last `UserUttered`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Predicted next action using RulePolicy.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - Predicted next action 'action_listen' with confidence 1.00.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"prediction_events": [], "event": "processor.actions.policy_prediction", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"action_name": "action_listen", "rasa_events": [], "event": "processor.actions.log", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.tracker_store  - No event broker configured. Skipping streaming events.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Deleted lock for conversation 'PractikumStudent'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Issuing ticket for conversation 'PractikumStudent'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Acquiring lock for conversation 'PractikumStudent'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Acquired lock for conversation 'PractikumStudent'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.tracker_store  - Recreating tracker for id 'PractikumStudent'
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.runner.dask  - Running graph with inputs: {'__message__': [<rasa.core.channels.channel.UserMessage object at 0x[MEMORY_ADDRESS]>], '__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x[MEMORY_ADDRESS]>}, targets: ['run_RegexMessageHandler'] and ExecutionContext(model_id='example_model_id', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'nlu_message_converter' running 'NLUMessageConverter.convert_user_message'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_WhitespaceTokenizer0' running 'WhitespaceTokenizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RegexFeaturizer1' running 'RegexFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_LexicalSyntacticFeaturizer2' running 'LexicalSyntacticFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_CountVectorsFeaturizer3' running 'CountVectorsFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_CountVectorsFeaturizer4' running 'CountVectorsFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_DIETClassifier5' running 'DIETClassifier.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_EntitySynonymMapper6' running 'EntitySynonymMapper.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_ResponseSelector7' running 'ResponseSelector.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.nlu.classifiers.diet_classifier  - There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.nlu.selectors.response_selector  - Adding following selector key to message property: default
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'domain_provider' running 'DomainProvider.provide_inference'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RegexMessageHandler' running 'RegexMessageHandler.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"parse_data_text": "Как развернуть приложение в облаке?", "parse_data_intent": {"name": "greet", "confidence": 0.1262802630662918}, "parse_data_entities": [], "event": "processor.message.parse", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - Logged UserUtterance - tracker now has 24 events.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.actions.action  - Validating extracted slots: 
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"action_extract_slot": "action_extract_slots", "len_extraction_events": 0, "rasa_events": [], "event": "processor.extract.slots", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.runner.dask  - Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x[MEMORY_ADDRESS]>}, targets: ['select_prediction'] and ExecutionContext(model_id='example_model_id', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'domain_provider' running 'DomainProvider.provide_inference'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - {"tracker_states": [{"user": {"intent": "ask_patterns"}, "prev_action": {"action_name": "action_listen"}}, {"user": {"intent": "ask_patterns"}, "prev_action": {"action_name": "utter_ask_patterns"}}, {"user": {"intent": "ask_database"}, "prev_action": {"action_name": "action_listen"}}, {"user": {"intent": "ask_database"}, "prev_action": {"action_name": "utter_ask_database"}}, {"user": {"intent": "greet"}, "prev_action": {"action_name": "action_listen"}}], "event": "memoization.predict.actions", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - There is no memorised next action
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RulePolicy1' running 'RulePolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - {"current_states": "\n[state 1] user intent: greet | previous action name: action_listen\n[state 2] user intent: greet | previous action name: utter_greet\n[state 3] user intent: ask_microservices | previous action name: action_listen\n[state 4] user intent: ask_microservices | previous action name: utter_ask_microservices\n[state 5] user intent: ask_patterns | previous action name: action_listen\n[state 6] user intent: ask_patterns | previous action name: utter_ask_patterns\n[state 7] user intent: ask_database | previous action name: action_listen\n[state 8] user intent: ask_database | previous action name: utter_ask_database\n[state 9] user text: Как развернуть приложение в облаке? | previous action name: action_listen", "event": "rule_policy.actions.find", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - There is no applicable rule.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - {"current_states": "\n[state 1] user intent: greet | previous action name: action_listen\n[state 2] user intent: greet | previous action name: utter_greet\n[state 3] user intent: ask_microservices | previous action name: action_listen\n[state 4] user intent: ask_microservices | previous action name: utter_ask_microservices\n[state 5] user intent: ask_patterns | previous action name: action_listen\n[state 6] user intent: ask_patterns | previous action name: utter_ask_patterns\n[state 7] user intent: ask_database | previous action name: action_listen\n[state 8] user intent: ask_database | previous action name: utter_ask_database\n[state 9] user intent: greet | previous action name: action_listen", "event": "rule_policy.actions.find", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - There is a rule for the next action 'utter_greet'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_TEDPolicy3' running 'TEDPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ted_policy  - TED predicted 'utter_greet' based on user intent.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_UnexpecTEDIntentPolicy2' running 'UnexpecTEDIntentPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Querying for intent `greet`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Score for intent `greet` is `-0.052359238266944885`, while threshold is `-0.04987533390522003`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Top 5 intents (in ascending order) that are likely here are: `[('ask_cloud', 0.020962138), ('ask_security', 0.057545073), ('ask_best_practices', 0.0657624), ('ask_microservices', 0.06987991), ('ask_database', 0.17718005)]`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Intent `greet-13` unlikely to occur here.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Made prediction using user intent.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Added `DefinePrevUserUtteredFeaturization(False)` event.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Predicted next action using RulePolicy.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - Predicted next action 'utter_greet' with confidence 1.00.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"prediction_events": ["<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x[MEMORY_ADDRESS]>"], "event": "processor.actions.policy_prediction", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"action_name": "utter_greet", "rasa_events": ["BotUttered('Привет! Я AI-архитектор, готов помочь вам с вопросами архитектуры программного обеспечения. Что вас интересует?', {\"elements\": null, \"quick_replies\": null, \"buttons\": null, \"attachment\": null, \"image\": null, \"custom\": null}, {\"utter_action\": \"utter_greet\"}, 1752337528.571032)"], "event": "processor.actions.log", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.runner.dask  - Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x[MEMORY_ADDRESS]>}, targets: ['select_prediction'] and ExecutionContext(model_id='example_model_id', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'domain_provider' running 'DomainProvider.provide_inference'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - {"tracker_states": [{"user": {"intent": "ask_patterns"}, "prev_action": {"action_name": "utter_ask_patterns"}}, {"user": {"intent": "ask_database"}, "prev_action": {"action_name": "action_listen"}}, {"user": {"intent": "ask_database"}, "prev_action": {"action_name": "utter_ask_database"}}, {"user": {"intent": "greet"}, "prev_action": {"action_name": "action_listen"}}, {"user": {"intent": "greet"}, "prev_action": {"action_name": "utter_greet"}}], "event": "memoization.predict.actions", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - There is no memorised next action
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RulePolicy1' running 'RulePolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - {"current_states": "\n[state 1] user intent: greet | previous action name: action_listen\n[state 2] user intent: greet | previous action name: utter_greet\n[state 3] user intent: ask_microservices | previous action name: action_listen\n[state 4] user intent: ask_microservices | previous action name: utter_ask_microservices\n[state 5] user intent: ask_patterns | previous action name: action_listen\n[state 6] user intent: ask_patterns | previous action name: utter_ask_patterns\n[state 7] user intent: ask_database | previous action name: action_listen\n[state 8] user intent: ask_database | previous action name: utter_ask_database\n[state 9] user intent: greet | previous action name: action_listen\n[state 10] user intent: greet | previous action name: utter_greet", "event": "rule_policy.actions.find", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - There is a rule for the next action 'action_listen'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_TEDPolicy3' running 'TEDPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ted_policy  - TED predicted 'action_listen' based on user intent.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_UnexpecTEDIntentPolicy2' running 'UnexpecTEDIntentPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Skipping predictions for UnexpecTEDIntentPolicy as either there is no event of type `UserUttered`, event's intent is new and not in domain or there is an event of type `ActionExecuted` after the last `UserUttered`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Predicted next action using RulePolicy.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - Predicted next action 'action_listen' with confidence 1.00.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"prediction_events": [], "event": "processor.actions.policy_prediction", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"action_name": "action_listen", "rasa_events": [], "event": "processor.actions.log", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.tracker_store  - No event broker configured. Skipping streaming events.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Deleted lock for conversation 'PractikumStudent'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Issuing ticket for conversation 'PractikumStudent'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Acquiring lock for conversation 'PractikumStudent'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Acquired lock for conversation 'PractikumStudent'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.tracker_store  - Recreating tracker for id 'PractikumStudent'
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.runner.dask  - Running graph with inputs: {'__message__': [<rasa.core.channels.channel.UserMessage object at 0x[MEMORY_ADDRESS]>], '__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x[MEMORY_ADDRESS]>}, targets: ['run_RegexMessageHandler'] and ExecutionContext(model_id='example_model_id', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'nlu_message_converter' running 'NLUMessageConverter.convert_user_message'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_WhitespaceTokenizer0' running 'WhitespaceTokenizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RegexFeaturizer1' running 'RegexFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_LexicalSyntacticFeaturizer2' running 'LexicalSyntacticFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_CountVectorsFeaturizer3' running 'CountVectorsFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_CountVectorsFeaturizer4' running 'CountVectorsFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_DIETClassifier5' running 'DIETClassifier.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_EntitySynonymMapper6' running 'EntitySynonymMapper.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_ResponseSelector7' running 'ResponseSelector.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.nlu.classifiers.diet_classifier  - There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.nlu.selectors.response_selector  - Adding following selector key to message property: default
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'domain_provider' running 'DomainProvider.provide_inference'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RegexMessageHandler' running 'RegexMessageHandler.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"parse_data_text": "HTTPS и SSL", "parse_data_intent": {"name": "ask_security", "confidence": 0.14069972932338715}, "parse_data_entities": [], "event": "processor.message.parse", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - Logged UserUtterance - tracker now has 29 events.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.actions.action  - Validating extracted slots: 
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"action_extract_slot": "action_extract_slots", "len_extraction_events": 0, "rasa_events": [], "event": "processor.extract.slots", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.runner.dask  - Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x[MEMORY_ADDRESS]>}, targets: ['select_prediction'] and ExecutionContext(model_id='example_model_id', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'domain_provider' running 'DomainProvider.provide_inference'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - {"tracker_states": [{"user": {"intent": "ask_database"}, "prev_action": {"action_name": "action_listen"}}, {"user": {"intent": "ask_database"}, "prev_action": {"action_name": "utter_ask_database"}}, {"user": {"intent": "greet"}, "prev_action": {"action_name": "action_listen"}}, {"user": {"intent": "greet"}, "prev_action": {"action_name": "utter_greet"}}, {"user": {"intent": "ask_security"}, "prev_action": {"action_name": "action_listen"}}], "event": "memoization.predict.actions", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - There is no memorised next action
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RulePolicy1' running 'RulePolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - {"current_states": "\n[state 1] user intent: greet | previous action name: action_listen\n[state 2] user intent: greet | previous action name: utter_greet\n[state 3] user intent: ask_microservices | previous action name: action_listen\n[state 4] user intent: ask_microservices | previous action name: utter_ask_microservices\n[state 5] user intent: ask_patterns | previous action name: action_listen\n[state 6] user intent: ask_patterns | previous action name: utter_ask_patterns\n[state 7] user intent: ask_database | previous action name: action_listen\n[state 8] user intent: ask_database | previous action name: utter_ask_database\n[state 9] user intent: greet | previous action name: action_listen\n[state 10] user intent: greet | previous action name: utter_greet\n[state 11] user text: HTTPS и SSL | previous action name: action_listen", "event": "rule_policy.actions.find", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - There is no applicable rule.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - {"current_states": "\n[state 1] user intent: greet | previous action name: action_listen\n[state 2] user intent: greet | previous action name: utter_greet\n[state 3] user intent: ask_microservices | previous action name: action_listen\n[state 4] user intent: ask_microservices | previous action name: utter_ask_microservices\n[state 5] user intent: ask_patterns | previous action name: action_listen\n[state 6] user intent: ask_patterns | previous action name: utter_ask_patterns\n[state 7] user intent: ask_database | previous action name: action_listen\n[state 8] user intent: ask_database | previous action name: utter_ask_database\n[state 9] user intent: greet | previous action name: action_listen\n[state 10] user intent: greet | previous action name: utter_greet\n[state 11] user intent: ask_security | previous action name: action_listen", "event": "rule_policy.actions.find", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - There is a rule for the next action 'utter_ask_security'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_TEDPolicy3' running 'TEDPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ted_policy  - TED predicted 'utter_greet' based on user intent.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_UnexpecTEDIntentPolicy2' running 'UnexpecTEDIntentPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Querying for intent `ask_security`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Score for intent `ask_security` is `-0.08550886064767838`, while threshold is `-0.0174403078854084`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Top 5 intents (in ascending order) that are likely here are: `[('ask_cloud', -0.058491267), ('ask_database', -0.045235723), ('bot_challenge', -0.04394193), ('ask_microservices', 0.005546339), ('ask_architecture', 0.07096132)]`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Intent `ask_security-7` unlikely to occur here.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Made prediction using user intent.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Added `DefinePrevUserUtteredFeaturization(False)` event.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Predicted next action using RulePolicy.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - Predicted next action 'utter_ask_security' with confidence 1.00.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"prediction_events": ["<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x[MEMORY_ADDRESS]>"], "event": "processor.actions.policy_prediction", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"action_name": "utter_ask_security", "rasa_events": ["BotUttered('Безопасность в архитектуре:\n• Аутентификация (JWT, OAuth)\n• Авторизация (RBAC, ABAC)\n• Шифрование данных (TLS, AES)\n• Защита API (Rate limiting, CORS)\n• Безопасность контейнеров\n• Мониторинг и логирование\n• Принцип наименьших привилегий\nКакой аспект безопасности обсудим?', {\"elements\": null, \"quick_replies\": null, \"buttons\": null, \"attachment\": null, \"image\": null, \"custom\": null}, {\"utter_action\": \"utter_ask_security\"}, 1752337533.652259)"], "event": "processor.actions.log", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.runner.dask  - Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x[MEMORY_ADDRESS]>}, targets: ['select_prediction'] and ExecutionContext(model_id='example_model_id', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'domain_provider' running 'DomainProvider.provide_inference'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - {"tracker_states": [{"user": {"intent": "ask_database"}, "prev_action": {"action_name": "utter_ask_database"}}, {"user": {"intent": "greet"}, "prev_action": {"action_name": "action_listen"}}, {"user": {"intent": "greet"}, "prev_action": {"action_name": "utter_greet"}}, {"user": {"intent": "ask_security"}, "prev_action": {"action_name": "action_listen"}}, {"user": {"intent": "ask_security"}, "prev_action": {"action_name": "utter_ask_security"}}], "event": "memoization.predict.actions", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - There is no memorised next action
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RulePolicy1' running 'RulePolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - {"current_states": "\n[state 1] user intent: greet | previous action name: action_listen\n[state 2] user intent: greet | previous action name: utter_greet\n[state 3] user intent: ask_microservices | previous action name: action_listen\n[state 4] user intent: ask_microservices | previous action name: utter_ask_microservices\n[state 5] user intent: ask_patterns | previous action name: action_listen\n[state 6] user intent: ask_patterns | previous action name: utter_ask_patterns\n[state 7] user intent: ask_database | previous action name: action_listen\n[state 8] user intent: ask_database | previous action name: utter_ask_database\n[state 9] user intent: greet | previous action name: action_listen\n[state 10] user intent: greet | previous action name: utter_greet\n[state 11] user intent: ask_security | previous action name: action_listen\n[state 12] user intent: ask_security | previous action name: utter_ask_security", "event": "rule_policy.actions.find", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - There is a rule for the next action 'action_listen'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_TEDPolicy3' running 'TEDPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ted_policy  - TED predicted 'action_listen' based on user intent.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_UnexpecTEDIntentPolicy2' running 'UnexpecTEDIntentPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Skipping predictions for UnexpecTEDIntentPolicy as either there is no event of type `UserUttered`, event's intent is new and not in domain or there is an event of type `ActionExecuted` after the last `UserUttered`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Predicted next action using RulePolicy.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - Predicted next action 'action_listen' with confidence 1.00.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"prediction_events": [], "event": "processor.actions.policy_prediction", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"action_name": "action_listen", "rasa_events": [], "event": "processor.actions.log", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.tracker_store  - No event broker configured. Skipping streaming events.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Deleted lock for conversation 'PractikumStudent'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Issuing ticket for conversation 'PractikumStudent'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Acquiring lock for conversation 'PractikumStudent'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Acquired lock for conversation 'PractikumStudent'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.tracker_store  - Recreating tracker for id 'PractikumStudent'
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.runner.dask  - Running graph with inputs: {'__message__': [<rasa.core.channels.channel.UserMessage object at 0x[MEMORY_ADDRESS]>], '__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x[MEMORY_ADDRESS]>}, targets: ['run_RegexMessageHandler'] and ExecutionContext(model_id='example_model_id', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'nlu_message_converter' running 'NLUMessageConverter.convert_user_message'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_WhitespaceTokenizer0' running 'WhitespaceTokenizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RegexFeaturizer1' running 'RegexFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_LexicalSyntacticFeaturizer2' running 'LexicalSyntacticFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_CountVectorsFeaturizer3' running 'CountVectorsFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_CountVectorsFeaturizer4' running 'CountVectorsFeaturizer.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_DIETClassifier5' running 'DIETClassifier.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_EntitySynonymMapper6' running 'EntitySynonymMapper.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_ResponseSelector7' running 'ResponseSelector.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.nlu.classifiers.diet_classifier  - There is no trained model for 'ResponseSelector': The component is either not trained or didn't receive enough training data.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.nlu.selectors.response_selector  - Adding following selector key to message property: default
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'domain_provider' running 'DomainProvider.provide_inference'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RegexMessageHandler' running 'RegexMessageHandler.process'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"parse_data_text": "До свидания", "parse_data_intent": {"name": "goodbye", "confidence": 0.13382858037948608}, "parse_data_entities": [], "event": "processor.message.parse", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - Logged UserUtterance - tracker now has 34 events.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.actions.action  - Validating extracted slots: 
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"action_extract_slot": "action_extract_slots", "len_extraction_events": 0, "rasa_events": [], "event": "processor.extract.slots", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.runner.dask  - Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x[MEMORY_ADDRESS]>}, targets: ['select_prediction'] and ExecutionContext(model_id='example_model_id', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'domain_provider' running 'DomainProvider.provide_inference'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - {"tracker_states": [{"user": {"intent": "greet"}, "prev_action": {"action_name": "action_listen"}}, {"user": {"intent": "greet"}, "prev_action": {"action_name": "utter_greet"}}, {"user": {"intent": "ask_security"}, "prev_action": {"action_name": "action_listen"}}, {"user": {"intent": "ask_security"}, "prev_action": {"action_name": "utter_ask_security"}}, {"user": {"intent": "goodbye"}, "prev_action": {"action_name": "action_listen"}}], "event": "memoization.predict.actions", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - There is no memorised next action
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RulePolicy1' running 'RulePolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - {"current_states": "\n[state 1] user intent: greet | previous action name: action_listen\n[state 2] user intent: greet | previous action name: utter_greet\n[state 3] user intent: ask_microservices | previous action name: action_listen\n[state 4] user intent: ask_microservices | previous action name: utter_ask_microservices\n[state 5] user intent: ask_patterns | previous action name: action_listen\n[state 6] user intent: ask_patterns | previous action name: utter_ask_patterns\n[state 7] user intent: ask_database | previous action name: action_listen\n[state 8] user intent: ask_database | previous action name: utter_ask_database\n[state 9] user intent: greet | previous action name: action_listen\n[state 10] user intent: greet | previous action name: utter_greet\n[state 11] user intent: ask_security | previous action name: action_listen\n[state 12] user intent: ask_security | previous action name: utter_ask_security\n[state 13] user text: До свидания | previous action name: action_listen", "event": "rule_policy.actions.find", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - There is no applicable rule.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - {"current_states": "\n[state 1] user intent: greet | previous action name: action_listen\n[state 2] user intent: greet | previous action name: utter_greet\n[state 3] user intent: ask_microservices | previous action name: action_listen\n[state 4] user intent: ask_microservices | previous action name: utter_ask_microservices\n[state 5] user intent: ask_patterns | previous action name: action_listen\n[state 6] user intent: ask_patterns | previous action name: utter_ask_patterns\n[state 7] user intent: ask_database | previous action name: action_listen\n[state 8] user intent: ask_database | previous action name: utter_ask_database\n[state 9] user intent: greet | previous action name: action_listen\n[state 10] user intent: greet | previous action name: utter_greet\n[state 11] user intent: ask_security | previous action name: action_listen\n[state 12] user intent: ask_security | previous action name: utter_ask_security\n[state 13] user intent: goodbye | previous action name: action_listen", "event": "rule_policy.actions.find", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - There is a rule for the next action 'utter_goodbye'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_TEDPolicy3' running 'TEDPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ted_policy  - TED predicted 'utter_goodbye' based on user intent.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_UnexpecTEDIntentPolicy2' running 'UnexpecTEDIntentPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Querying for intent `goodbye`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Score for intent `goodbye` is `-0.21594925224781036`, while threshold is `-0.27310484647750854`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Top 5 intents (in ascending order) that are likely here are: `[('ask_cloud', 0.026356887), ('ask_security', 0.046758104), ('ask_best_practices', 0.05935841), ('ask_microservices', 0.08823179), ('ask_database', 0.22695214)]`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Made prediction using user intent.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Added `DefinePrevUserUtteredFeaturization(False)` event.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Predicted next action using RulePolicy.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - Predicted next action 'utter_goodbye' with confidence 1.00.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"prediction_events": ["<rasa.shared.core.events.DefinePrevUserUtteredFeaturization object at 0x[MEMORY_ADDRESS]>"], "event": "processor.actions.policy_prediction", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"action_name": "utter_goodbye", "rasa_events": ["BotUttered('До свидания! Обращайтесь, если понадобится помощь с архитектурными решениями.', {\"elements\": null, \"quick_replies\": null, \"buttons\": null, \"attachment\": null, \"image\": null, \"custom\": null}, {\"utter_action\": \"utter_goodbye\"}, 1752337537.406559)"], "event": "processor.actions.log", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.runner.dask  - Running graph with inputs: {'__tracker__': <rasa.shared.core.trackers.DialogueStateTracker object at 0x[MEMORY_ADDRESS]>}, targets: ['select_prediction'] and ExecutionContext(model_id='example_model_id', should_add_diagnostic_data=False, is_finetuning=False, node_name=None).
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'rule_only_data_provider' running 'RuleOnlyDataProvider.provide'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'domain_provider' running 'DomainProvider.provide_inference'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_MemoizationPolicy0' running 'MemoizationPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - {"tracker_states": [{"user": {"intent": "greet"}, "prev_action": {"action_name": "utter_greet"}}, {"user": {"intent": "ask_security"}, "prev_action": {"action_name": "action_listen"}}, {"user": {"intent": "ask_security"}, "prev_action": {"action_name": "utter_ask_security"}}, {"user": {"intent": "goodbye"}, "prev_action": {"action_name": "action_listen"}}, {"user": {"intent": "goodbye"}, "prev_action": {"action_name": "utter_goodbye"}}], "event": "memoization.predict.actions", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.memoization  - There is no memorised next action
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_RulePolicy1' running 'RulePolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - {"current_states": "\n[state 1] user intent: greet | previous action name: action_listen\n[state 2] user intent: greet | previous action name: utter_greet\n[state 3] user intent: ask_microservices | previous action name: action_listen\n[state 4] user intent: ask_microservices | previous action name: utter_ask_microservices\n[state 5] user intent: ask_patterns | previous action name: action_listen\n[state 6] user intent: ask_patterns | previous action name: utter_ask_patterns\n[state 7] user intent: ask_database | previous action name: action_listen\n[state 8] user intent: ask_database | previous action name: utter_ask_database\n[state 9] user intent: greet | previous action name: action_listen\n[state 10] user intent: greet | previous action name: utter_greet\n[state 11] user intent: ask_security | previous action name: action_listen\n[state 12] user intent: ask_security | previous action name: utter_ask_security\n[state 13] user intent: goodbye | previous action name: action_listen\n[state 14] user intent: goodbye | previous action name: utter_goodbye", "event": "rule_policy.actions.find", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.rule_policy  - There is a rule for the next action 'action_listen'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_TEDPolicy3' running 'TEDPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ted_policy  - TED predicted 'action_listen' based on user intent.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'run_UnexpecTEDIntentPolicy2' running 'UnexpecTEDIntentPolicy.predict_action_probabilities'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.unexpected_intent_policy  - Skipping predictions for UnexpecTEDIntentPolicy as either there is no event of type `UserUttered`, event's intent is new and not in domain or there is an event of type `ActionExecuted` after the last `UserUttered`.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.engine.graph  - Node 'select_prediction' running 'DefaultPolicyPredictionEnsemble.combine_predictions_from_kwargs'.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.policies.ensemble  - Predicted next action using RulePolicy.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - Predicted next action 'action_listen' with confidence 1.00.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"prediction_events": [], "event": "processor.actions.policy_prediction", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.processor  - {"action_name": "action_listen", "rasa_events": [], "event": "processor.actions.log", "level": "debug"}
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.tracker_store  - No event broker configured. Skipping streaming events.
+YYYY-MM-DD HH:MM:SS DEBUG    rasa.core.lock_store  - Deleted lock for conversation 'PractikumStudent'.
